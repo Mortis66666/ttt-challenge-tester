@@ -20,7 +20,7 @@ def generate_test_case():
             # Add the move to the inputs
             inputs.append(str(move))
             # Add the current state of the board to the outputs
-            outputs.append(''.join(board))
+            outputs.append(' '.join(board))
             # Switch players
             player = 'O' if player == 'X' else 'X'
     
